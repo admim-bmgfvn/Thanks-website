@@ -5,4 +5,4 @@
     action: "upload"
     app_location: "/"
     output_location: "/"
-    skip_app_build: true # Thêm dòng này để báo Azure không cần build
+    skip_app_build: true
