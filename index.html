@@ -1,89 +1,13 @@
 <!doctype html>
 <html lang="vi">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Thanks-website — một trang tri ân BMGF-VN và những cơ hội mà công nghệ mang lại.">
-  <title>Thanks — BMGF-VN</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="hero">
-    <nav class="nav container" aria-label="Điều hướng">
-      <a class="brand" href="/">Thanks<span>.</span></a>
-      <a class="nav-link" href="#about">Về trang này</a>
-    </nav>
-
-    <div class="hero-content container">
-      <p class="eyebrow">A SMALL WEBSITE OF GRATITUDE</p>
-      <h1>Cảm ơn những người đã mở ra <em>cơ hội</em>.</h1>
-      <p class="lead">
-        Một không gian nhỏ để ghi nhớ những giá trị của tri thức,
-        máy tính và Internet công cộng đã đến với cộng đồng tại Việt Nam.
-      </p>
-      <a class="button" href="#about">Khám phá câu chuyện <span>↓</span></a>
-    </div>
-  </header>
-
-  <main id="about">
-    <section class="section container">
-      <div class="section-label">01 / Lời tri ân</div>
-      <div class="content-grid">
-        <div>
-          <h2>Một lời cảm ơn<br><span>được giữ lại.</span></h2>
-        </div>
-        <div class="copy">
-          <p>
-            Tên miền này được tạo ra và duy trì cho các mục đích kỹ thuật,
-            nhưng đồng thời cũng mang một ý nghĩa cá nhân: một lời tri ân
-            đến dự án <strong>BMGF-VN</strong>.
-          </p>
-          <p>
-            Dự án “Nâng cao khả năng sử dụng máy tính và truy nhập Internet
-            công cộng tại Việt Nam” được khởi xướng và tài trợ bởi
-            <strong>Quỹ Bill &amp; Melinda Gates (BMGF)</strong>.
-          </p>
-          <p>
-            Đối với những người từng được tiếp cận máy tính, Internet và
-            tri thức thông qua những cơ hội như vậy, giá trị của một dự án
-            không chỉ nằm ở công nghệ — mà còn ở những cánh cửa nó mở ra.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="quote-section">
-      <div class="container">
-        <blockquote>
-          “Cơ hội tiếp cận công nghệ có thể bắt đầu từ một chiếc máy tính,
-          nhưng những điều nó tạo ra có thể đi xa hơn rất nhiều.”
-        </blockquote>
-      </div>
-    </section>
-
-    <section class="section container status">
-      <div class="section-label">02 / Trạng thái</div>
-      <div class="status-card">
-        <div class="status-dot" aria-hidden="true"></div>
-        <div>
-          <h2>Hệ thống đang hoạt động.</h2>
-          <p>
-            Đây là một website tĩnh được phục vụ trực tiếp bởi Azure Static
-            Web Apps. Không cần máy chủ ứng dụng, database hay quá trình build
-            Node.js để hiển thị trang này.
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span>Thanks-website</span>
-      <span id="year"></span>
-    </div>
-  </footer>
-
-  <script src="app.js" defer></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Thanks-website — một trang tri ân BMGF-VN và những cơ hội mà công nghệ mang lại." />
+    <title>Thanks — BMGF-VN</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
