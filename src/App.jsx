@@ -13,9 +13,9 @@ export default function App() {
         <section className="notice">
           <h2>Trang thông báo mặc định</h2>
           <p>
-            Đây là trang thông báo tối giản, lấy cảm hứng từ trang chào mặc
-            định của Apache2. Trang này xác nhận website đang được phục vụ;
-            nó không khẳng định máy chủ đang chạy Apache.
+            Đây là trang thông báo mặc định. Nếu bạn vô tình truy cập vào đây,
+            đừng lo — đây không phải là lỗi; mọi thứ vẫn đang hoạt động đúng
+            như dự kiến. Không có gì để xem ở đây.
           </p>
         </section>
 
